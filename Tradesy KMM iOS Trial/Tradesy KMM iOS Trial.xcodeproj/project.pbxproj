@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		704189FF27F3BE2E00E72DF8 /* Tradesy_KMM_iOS_TrialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704189FE27F3BE2E00E72DF8 /* Tradesy_KMM_iOS_TrialApp.swift */; };
+		70418A0127F3BE2E00E72DF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70418A0027F3BE2E00E72DF8 /* ContentView.swift */; };
+		70418A0327F3BE3000E72DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70418A0227F3BE3000E72DF8 /* Assets.xcassets */; };
+		70418A0627F3BE3000E72DF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70418A0527F3BE3000E72DF8 /* Preview Assets.xcassets */; };
+		70418A1027F3BE3000E72DF8 /* Tradesy_KMM_iOS_TrialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70418A0F27F3BE3000E72DF8 /* Tradesy_KMM_iOS_TrialTests.swift */; };
+		70418A1A27F3BE3000E72DF8 /* Tradesy_KMM_iOS_TrialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70418A1927F3BE3000E72DF8 /* Tradesy_KMM_iOS_TrialUITests.swift */; };
+		70418A1C27F3BE3000E72DF8 /* Tradesy_KMM_iOS_TrialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70418A1B27F3BE3000E72DF8 /* Tradesy_KMM_iOS_TrialUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70418A0C27F3BE3000E72DF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 704189F327F3BE2E00E72DF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 704189FA27F3BE2E00E72DF8;
+			remoteInfo = "Tradesy KMM iOS Trial";
+		};
+		70418A1627F3BE3000E72DF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 704189F327F3BE2E00E72DF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 704189FA27F3BE2E00E72DF8;
+			remoteInfo = "Tradesy KMM iOS Trial";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		704189FB27F3BE2E00E72DF8 /* Tradesy KMM iOS Trial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tradesy KMM iOS Trial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		704189FE27F3BE2E00E72DF8 /* Tradesy_KMM_iOS_TrialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tradesy_KMM_iOS_TrialApp.swift; sourceTree = "<group>"; };
+		70418A0027F3BE2E00E72DF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		70418A0227F3BE3000E72DF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70418A0527F3BE3000E72DF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		70418A0B27F3BE3000E72DF8 /* Tradesy KMM iOS TrialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tradesy KMM iOS TrialTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70418A0F27F3BE3000E72DF8 /* Tradesy_KMM_iOS_TrialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tradesy_KMM_iOS_TrialTests.swift; sourceTree = "<group>"; };
+		70418A1527F3BE3000E72DF8 /* Tradesy KMM iOS TrialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tradesy KMM iOS TrialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70418A1927F3BE3000E72DF8 /* Tradesy_KMM_iOS_TrialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tradesy_KMM_iOS_TrialUITests.swift; sourceTree = "<group>"; };
+		70418A1B27F3BE3000E72DF8 /* Tradesy_KMM_iOS_TrialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tradesy_KMM_iOS_TrialUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		704189F827F3BE2E00E72DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70418A0827F3BE3000E72DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70418A1227F3BE3000E72DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		704189F227F3BE2E00E72DF8 = {
+			isa = PBXGroup;
+			children = (
+				704189FD27F3BE2E00E72DF8 /* Tradesy KMM iOS Trial */,
+				70418A0E27F3BE3000E72DF8 /* Tradesy KMM iOS TrialTests */,
+				70418A1827F3BE3000E72DF8 /* Tradesy KMM iOS TrialUITests */,
+				704189FC27F3BE2E00E72DF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		704189FC27F3BE2E00E72DF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				704189FB27F3BE2E00E72DF8 /* Tradesy KMM iOS Trial.app */,
+				70418A0B27F3BE3000E72DF8 /* Tradesy KMM iOS TrialTests.xctest */,
+				70418A1527F3BE3000E72DF8 /* Tradesy KMM iOS TrialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		704189FD27F3BE2E00E72DF8 /* Tradesy KMM iOS Trial */ = {
+			isa = PBXGroup;
+			children = (
+				704189FE27F3BE2E00E72DF8 /* Tradesy_KMM_iOS_TrialApp.swift */,
+				70418A0027F3BE2E00E72DF8 /* ContentView.swift */,
+				70418A0227F3BE3000E72DF8 /* Assets.xcassets */,
+				70418A0427F3BE3000E72DF8 /* Preview Content */,
+			);
+			path = "Tradesy KMM iOS Trial";
+			sourceTree = "<group>";
+		};
+		70418A0427F3BE3000E72DF8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				70418A0527F3BE3000E72DF8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		70418A0E27F3BE3000E72DF8 /* Tradesy KMM iOS TrialTests */ = {
+			isa = PBXGroup;
+			children = (
+				70418A0F27F3BE3000E72DF8 /* Tradesy_KMM_iOS_TrialTests.swift */,
+			);
+			path = "Tradesy KMM iOS TrialTests";
+			sourceTree = "<group>";
+		};
+		70418A1827F3BE3000E72DF8 /* Tradesy KMM iOS TrialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				70418A1927F3BE3000E72DF8 /* Tradesy_KMM_iOS_TrialUITests.swift */,
+				70418A1B27F3BE3000E72DF8 /* Tradesy_KMM_iOS_TrialUITestsLaunchTests.swift */,
+			);
+			path = "Tradesy KMM iOS TrialUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		704189FA27F3BE2E00E72DF8 /* Tradesy KMM iOS Trial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70418A1F27F3BE3000E72DF8 /* Build configuration list for PBXNativeTarget "Tradesy KMM iOS Trial" */;
+			buildPhases = (
+				704189F727F3BE2E00E72DF8 /* Sources */,
+				704189F827F3BE2E00E72DF8 /* Frameworks */,
+				704189F927F3BE2E00E72DF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tradesy KMM iOS Trial";
+			productName = "Tradesy KMM iOS Trial";
+			productReference = 704189FB27F3BE2E00E72DF8 /* Tradesy KMM iOS Trial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70418A0A27F3BE3000E72DF8 /* Tradesy KMM iOS TrialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70418A2227F3BE3000E72DF8 /* Build configuration list for PBXNativeTarget "Tradesy KMM iOS TrialTests" */;
+			buildPhases = (
+				70418A0727F3BE3000E72DF8 /* Sources */,
+				70418A0827F3BE3000E72DF8 /* Frameworks */,
+				70418A0927F3BE3000E72DF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70418A0D27F3BE3000E72DF8 /* PBXTargetDependency */,
+			);
+			name = "Tradesy KMM iOS TrialTests";
+			productName = "Tradesy KMM iOS TrialTests";
+			productReference = 70418A0B27F3BE3000E72DF8 /* Tradesy KMM iOS TrialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		70418A1427F3BE3000E72DF8 /* Tradesy KMM iOS TrialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70418A2527F3BE3000E72DF8 /* Build configuration list for PBXNativeTarget "Tradesy KMM iOS TrialUITests" */;
+			buildPhases = (
+				70418A1127F3BE3000E72DF8 /* Sources */,
+				70418A1227F3BE3000E72DF8 /* Frameworks */,
+				70418A1327F3BE3000E72DF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70418A1727F3BE3000E72DF8 /* PBXTargetDependency */,
+			);
+			name = "Tradesy KMM iOS TrialUITests";
+			productName = "Tradesy KMM iOS TrialUITests";
+			productReference = 70418A1527F3BE3000E72DF8 /* Tradesy KMM iOS TrialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		704189F327F3BE2E00E72DF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					704189FA27F3BE2E00E72DF8 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					70418A0A27F3BE3000E72DF8 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 704189FA27F3BE2E00E72DF8;
+					};
+					70418A1427F3BE3000E72DF8 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 704189FA27F3BE2E00E72DF8;
+					};
+				};
+			};
+			buildConfigurationList = 704189F627F3BE2E00E72DF8 /* Build configuration list for PBXProject "Tradesy KMM iOS Trial" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 704189F227F3BE2E00E72DF8;
+			productRefGroup = 704189FC27F3BE2E00E72DF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				704189FA27F3BE2E00E72DF8 /* Tradesy KMM iOS Trial */,
+				70418A0A27F3BE3000E72DF8 /* Tradesy KMM iOS TrialTests */,
+				70418A1427F3BE3000E72DF8 /* Tradesy KMM iOS TrialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		704189F927F3BE2E00E72DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70418A0627F3BE3000E72DF8 /* Preview Assets.xcassets in Resources */,
+				70418A0327F3BE3000E72DF8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70418A0927F3BE3000E72DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70418A1327F3BE3000E72DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		704189F727F3BE2E00E72DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70418A0127F3BE2E00E72DF8 /* ContentView.swift in Sources */,
+				704189FF27F3BE2E00E72DF8 /* Tradesy_KMM_iOS_TrialApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70418A0727F3BE3000E72DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70418A1027F3BE3000E72DF8 /* Tradesy_KMM_iOS_TrialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70418A1127F3BE3000E72DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70418A1C27F3BE3000E72DF8 /* Tradesy_KMM_iOS_TrialUITestsLaunchTests.swift in Sources */,
+				70418A1A27F3BE3000E72DF8 /* Tradesy_KMM_iOS_TrialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70418A0D27F3BE3000E72DF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 704189FA27F3BE2E00E72DF8 /* Tradesy KMM iOS Trial */;
+			targetProxy = 70418A0C27F3BE3000E72DF8 /* PBXContainerItemProxy */;
+		};
+		70418A1727F3BE3000E72DF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 704189FA27F3BE2E00E72DF8 /* Tradesy KMM iOS Trial */;
+			targetProxy = 70418A1627F3BE3000E72DF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		70418A1D27F3BE3000E72DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		70418A1E27F3BE3000E72DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70418A2027F3BE3000E72DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tradesy KMM iOS Trial/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.tradesy-kmm-ios-trial.Tradesy-KMM-iOS-Trial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70418A2127F3BE3000E72DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tradesy KMM iOS Trial/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.tradesy-kmm-ios-trial.Tradesy-KMM-iOS-Trial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		70418A2327F3BE3000E72DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.tradesy-kmm-ios-trial.Tradesy-KMM-iOS-TrialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tradesy KMM iOS Trial.app/Tradesy KMM iOS Trial";
+			};
+			name = Debug;
+		};
+		70418A2427F3BE3000E72DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.tradesy-kmm-ios-trial.Tradesy-KMM-iOS-TrialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tradesy KMM iOS Trial.app/Tradesy KMM iOS Trial";
+			};
+			name = Release;
+		};
+		70418A2627F3BE3000E72DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.tradesy-kmm-ios-trial.Tradesy-KMM-iOS-TrialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tradesy KMM iOS Trial";
+			};
+			name = Debug;
+		};
+		70418A2727F3BE3000E72DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.tradesy-kmm-ios-trial.Tradesy-KMM-iOS-TrialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tradesy KMM iOS Trial";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		704189F627F3BE2E00E72DF8 /* Build configuration list for PBXProject "Tradesy KMM iOS Trial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70418A1D27F3BE3000E72DF8 /* Debug */,
+				70418A1E27F3BE3000E72DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70418A1F27F3BE3000E72DF8 /* Build configuration list for PBXNativeTarget "Tradesy KMM iOS Trial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70418A2027F3BE3000E72DF8 /* Debug */,
+				70418A2127F3BE3000E72DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70418A2227F3BE3000E72DF8 /* Build configuration list for PBXNativeTarget "Tradesy KMM iOS TrialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70418A2327F3BE3000E72DF8 /* Debug */,
+				70418A2427F3BE3000E72DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70418A2527F3BE3000E72DF8 /* Build configuration list for PBXNativeTarget "Tradesy KMM iOS TrialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70418A2627F3BE3000E72DF8 /* Debug */,
+				70418A2727F3BE3000E72DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 704189F327F3BE2E00E72DF8 /* Project object */;
+}
