@@ -6,8 +6,21 @@
 //
 
 import SwiftUI
+import TradesyApiFramework
 
 struct ContentView: View {
+    
+    init() {
+        DefaultApiClient().tradesyHomePage {(response, error) in
+            if let response = response {
+                print("response = \(response)")
+            }
+            if let error = error {
+                print("error = \(error)")
+            }
+        }
+    }
+    
     var body: some View {
         Text("Hello, world!")
             .padding()

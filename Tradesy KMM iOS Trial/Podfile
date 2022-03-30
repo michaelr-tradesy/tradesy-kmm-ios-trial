@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '14.1'
+
+inhibit_all_warnings!
+
+
+target 'Tradesy KMM iOS Trial' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Tradesy KMM iOS Trial
+  #pod 'shared', :path => '/Users/michaelroebuck/Documents/src/mine/android/TradesyKMMRD/shared'
+
+  target 'Tradesy KMM iOS TrialTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Tradesy KMM iOS TrialUITests' do
+    # Pods for testing
+  end
+
+end

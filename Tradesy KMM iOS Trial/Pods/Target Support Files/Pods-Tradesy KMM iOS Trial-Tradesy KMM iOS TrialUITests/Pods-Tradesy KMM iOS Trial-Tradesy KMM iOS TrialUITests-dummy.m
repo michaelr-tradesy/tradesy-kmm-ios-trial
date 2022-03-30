@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Tradesy_KMM_iOS_Trial_Tradesy_KMM_iOS_TrialUITests : NSObject
+@end
+@implementation PodsDummy_Pods_Tradesy_KMM_iOS_Trial_Tradesy_KMM_iOS_TrialUITests
+@end
