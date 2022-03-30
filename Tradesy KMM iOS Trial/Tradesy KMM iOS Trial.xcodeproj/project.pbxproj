@@ -14,9 +14,10 @@
 		70418A1027F3BE3000E72DF8 /* Tradesy_KMM_iOS_TrialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70418A0F27F3BE3000E72DF8 /* Tradesy_KMM_iOS_TrialTests.swift */; };
 		70418A1A27F3BE3000E72DF8 /* Tradesy_KMM_iOS_TrialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70418A1927F3BE3000E72DF8 /* Tradesy_KMM_iOS_TrialUITests.swift */; };
 		70418A1C27F3BE3000E72DF8 /* Tradesy_KMM_iOS_TrialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70418A1B27F3BE3000E72DF8 /* Tradesy_KMM_iOS_TrialUITestsLaunchTests.swift */; };
-		70418A4C27F4D96500E72DF8 /* TradesyApiFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70418A4027F4D53800E72DF8 /* TradesyApiFramework.framework */; };
-		70418A4D27F4D96500E72DF8 /* TradesyApiFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 70418A4027F4D53800E72DF8 /* TradesyApiFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		DC38F5EE1C557827C98B3395 /* Pods_Tradesy_KMM_iOS_Trial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA559E5CA496A0FEA39C8CCA /* Pods_Tradesy_KMM_iOS_Trial.framework */; };
+		70418A5027F5000300E72DF8 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70418A4F27F5000300E72DF8 /* ContentViewModel.swift */; };
+		70418A5227F5013300E72DF8 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70418A5127F5013300E72DF8 /* AsyncImage.swift */; };
+		70418A5A27F5079500E72DF8 /* TradesyApiFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70418A4027F4D53800E72DF8 /* TradesyApiFramework.framework */; };
+		70418A5B27F5079500E72DF8 /* TradesyApiFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 70418A4027F4D53800E72DF8 /* TradesyApiFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E5198BAC57DE22A358F4EB88 /* Pods_Tradesy_KMM_iOS_Trial_Tradesy_KMM_iOS_TrialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B23DCA1DBA50AADBA64587CE /* Pods_Tradesy_KMM_iOS_Trial_Tradesy_KMM_iOS_TrialUITests.framework */; };
 		F9AF95DECB665103B7161B3B /* Pods_Tradesy_KMM_iOS_TrialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19389026A136E4183F1C2C00 /* Pods_Tradesy_KMM_iOS_TrialTests.framework */; };
 /* End PBXBuildFile section */
@@ -39,13 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		70418A4E27F4D96600E72DF8 /* Embed Frameworks */ = {
+		70418A5C27F5079500E72DF8 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				70418A4D27F4D96500E72DF8 /* TradesyApiFramework.framework in Embed Frameworks */,
+				70418A5B27F5079500E72DF8 /* TradesyApiFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,6 +72,9 @@
 		70418A2E27F4047D00E72DF8 /* releaseFramework */ = {isa = PBXFileReference; lastKnownFileType = folder; name = releaseFramework; path = ../../../android/TradesyKMMRD/shared/build/bin/iosX64/releaseFramework; sourceTree = "<group>"; };
 		70418A2F27F404C600E72DF8 /* TradesyApiFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TradesyApiFramework.framework; path = ../../../android/TradesyKMMRD/shared/build/bin/iosX64/releaseFramework/TradesyApiFramework.framework; sourceTree = "<group>"; };
 		70418A4027F4D53800E72DF8 /* TradesyApiFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TradesyApiFramework.framework; path = "../../../android/tradesy-kmm-library-trial/shared/build/bin/iosX64/releaseFramework/TradesyApiFramework.framework"; sourceTree = "<group>"; };
+		70418A4F27F5000300E72DF8 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		70418A5127F5013300E72DF8 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+		70418A5327F5044800E72DF8 /* TradesyApiFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TradesyApiFramework.framework; path = "../../../android/tradesy-kmm-library-trial/shared/build/bin/iosX64/podReleaseFramework/TradesyApiFramework.framework"; sourceTree = "<group>"; };
 		71D5801D8ACEC0C2D027BE0A /* Pods-Tradesy KMM iOS Trial-Tradesy KMM iOS TrialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tradesy KMM iOS Trial-Tradesy KMM iOS TrialUITests.debug.xcconfig"; path = "Target Support Files/Pods-Tradesy KMM iOS Trial-Tradesy KMM iOS TrialUITests/Pods-Tradesy KMM iOS Trial-Tradesy KMM iOS TrialUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B23DCA1DBA50AADBA64587CE /* Pods_Tradesy_KMM_iOS_Trial_Tradesy_KMM_iOS_TrialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tradesy_KMM_iOS_Trial_Tradesy_KMM_iOS_TrialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4F3F4B7068DBD4CEE9CAD8B /* Pods-Tradesy KMM iOS TrialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tradesy KMM iOS TrialTests.debug.xcconfig"; path = "Target Support Files/Pods-Tradesy KMM iOS TrialTests/Pods-Tradesy KMM iOS TrialTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -82,8 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC38F5EE1C557827C98B3395 /* Pods_Tradesy_KMM_iOS_Trial.framework in Frameworks */,
-				70418A4C27F4D96500E72DF8 /* TradesyApiFramework.framework in Frameworks */,
+				70418A5A27F5079500E72DF8 /* TradesyApiFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +138,8 @@
 				70418A0027F3BE2E00E72DF8 /* ContentView.swift */,
 				70418A0227F3BE3000E72DF8 /* Assets.xcassets */,
 				70418A0427F3BE3000E72DF8 /* Preview Content */,
+				70418A4F27F5000300E72DF8 /* ContentViewModel.swift */,
+				70418A5127F5013300E72DF8 /* AsyncImage.swift */,
 			);
 			path = "Tradesy KMM iOS Trial";
 			sourceTree = "<group>";
@@ -169,6 +174,7 @@
 			children = (
 				70418A2F27F404C600E72DF8 /* TradesyApiFramework.framework */,
 				70418A4027F4D53800E72DF8 /* TradesyApiFramework.framework */,
+				70418A5327F5044800E72DF8 /* TradesyApiFramework.framework */,
 				70418A2E27F4047D00E72DF8 /* releaseFramework */,
 				CA559E5CA496A0FEA39C8CCA /* Pods_Tradesy_KMM_iOS_Trial.framework */,
 				B23DCA1DBA50AADBA64587CE /* Pods_Tradesy_KMM_iOS_Trial_Tradesy_KMM_iOS_TrialUITests.framework */,
@@ -201,7 +207,7 @@
 				704189F727F3BE2E00E72DF8 /* Sources */,
 				704189F827F3BE2E00E72DF8 /* Frameworks */,
 				704189F927F3BE2E00E72DF8 /* Resources */,
-				70418A4E27F4D96600E72DF8 /* Embed Frameworks */,
+				70418A5C27F5079500E72DF8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -393,8 +399,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70418A5227F5013300E72DF8 /* AsyncImage.swift in Sources */,
 				70418A0127F3BE2E00E72DF8 /* ContentView.swift in Sources */,
 				704189FF27F3BE2E00E72DF8 /* Tradesy_KMM_iOS_TrialApp.swift in Sources */,
+				70418A5027F5000300E72DF8 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,7 +563,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Tradesy KMM iOS Trial/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				FRAMEWORK_SEARCH_PATHS = "../../../android/tradesy-kmm-library-trial/shared/build/bin/iosX64/releaseFramework";
+				FRAMEWORK_SEARCH_PATHS = "../../../android/tradesy-kmm-library-trial/shared/build/bin/iosX64/releaseFramework/**";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -585,7 +593,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Tradesy KMM iOS Trial/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				FRAMEWORK_SEARCH_PATHS = "../../../android/tradesy-kmm-library-trial/shared/build/bin/iosX64/releaseFramework";
+				FRAMEWORK_SEARCH_PATHS = "../../../android/tradesy-kmm-library-trial/shared/build/bin/iosX64/releaseFramework/**";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
