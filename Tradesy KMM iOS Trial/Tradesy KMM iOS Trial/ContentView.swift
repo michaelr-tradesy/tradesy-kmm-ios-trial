@@ -11,7 +11,7 @@ import TradesyApiFramework
 struct ContentView: View {
     
     init() {
-        DefaultApiClient().tradesyHomePage {(response, error) in
+        ApiClient().tradesyHomePage {(response, error) in
             if let response = response {
                 print("response = \(response)")
             }

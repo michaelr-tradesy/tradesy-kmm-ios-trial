@@ -14,8 +14,11 @@
 		70418A1027F3BE3000E72DF8 /* Tradesy_KMM_iOS_TrialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70418A0F27F3BE3000E72DF8 /* Tradesy_KMM_iOS_TrialTests.swift */; };
 		70418A1A27F3BE3000E72DF8 /* Tradesy_KMM_iOS_TrialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70418A1927F3BE3000E72DF8 /* Tradesy_KMM_iOS_TrialUITests.swift */; };
 		70418A1C27F3BE3000E72DF8 /* Tradesy_KMM_iOS_TrialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70418A1B27F3BE3000E72DF8 /* Tradesy_KMM_iOS_TrialUITestsLaunchTests.swift */; };
-		70418A3027F404C600E72DF8 /* TradesyApiFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70418A2F27F404C600E72DF8 /* TradesyApiFramework.framework */; };
-		70418A3127F404C600E72DF8 /* TradesyApiFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 70418A2F27F404C600E72DF8 /* TradesyApiFramework.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		70418A4C27F4D96500E72DF8 /* TradesyApiFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70418A4027F4D53800E72DF8 /* TradesyApiFramework.framework */; };
+		70418A4D27F4D96500E72DF8 /* TradesyApiFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 70418A4027F4D53800E72DF8 /* TradesyApiFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DC38F5EE1C557827C98B3395 /* Pods_Tradesy_KMM_iOS_Trial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA559E5CA496A0FEA39C8CCA /* Pods_Tradesy_KMM_iOS_Trial.framework */; };
+		E5198BAC57DE22A358F4EB88 /* Pods_Tradesy_KMM_iOS_Trial_Tradesy_KMM_iOS_TrialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B23DCA1DBA50AADBA64587CE /* Pods_Tradesy_KMM_iOS_Trial_Tradesy_KMM_iOS_TrialUITests.framework */; };
+		F9AF95DECB665103B7161B3B /* Pods_Tradesy_KMM_iOS_TrialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19389026A136E4183F1C2C00 /* Pods_Tradesy_KMM_iOS_TrialTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		70418A3227F404C600E72DF8 /* Embed Frameworks */ = {
+		70418A4E27F4D96600E72DF8 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				70418A3127F404C600E72DF8 /* TradesyApiFramework.framework in Embed Frameworks */,
+				70418A4D27F4D96500E72DF8 /* TradesyApiFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,6 +53,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0E8598152E9FE5370F2BDC31 /* Pods-Tradesy KMM iOS Trial-Tradesy KMM iOS TrialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tradesy KMM iOS Trial-Tradesy KMM iOS TrialUITests.release.xcconfig"; path = "Target Support Files/Pods-Tradesy KMM iOS Trial-Tradesy KMM iOS TrialUITests/Pods-Tradesy KMM iOS Trial-Tradesy KMM iOS TrialUITests.release.xcconfig"; sourceTree = "<group>"; };
+		19389026A136E4183F1C2C00 /* Pods_Tradesy_KMM_iOS_TrialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tradesy_KMM_iOS_TrialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CE1BB869255CD46B6F15990 /* Pods-Tradesy KMM iOS Trial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tradesy KMM iOS Trial.debug.xcconfig"; path = "Target Support Files/Pods-Tradesy KMM iOS Trial/Pods-Tradesy KMM iOS Trial.debug.xcconfig"; sourceTree = "<group>"; };
+		271CDED952910C9653D7CEA4 /* Pods-Tradesy KMM iOS Trial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tradesy KMM iOS Trial.release.xcconfig"; path = "Target Support Files/Pods-Tradesy KMM iOS Trial/Pods-Tradesy KMM iOS Trial.release.xcconfig"; sourceTree = "<group>"; };
+		5B92D1CC1287C6993845A0D3 /* Pods-Tradesy KMM iOS TrialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tradesy KMM iOS TrialTests.release.xcconfig"; path = "Target Support Files/Pods-Tradesy KMM iOS TrialTests/Pods-Tradesy KMM iOS TrialTests.release.xcconfig"; sourceTree = "<group>"; };
 		704189FB27F3BE2E00E72DF8 /* Tradesy KMM iOS Trial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tradesy KMM iOS Trial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		704189FE27F3BE2E00E72DF8 /* Tradesy_KMM_iOS_TrialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tradesy_KMM_iOS_TrialApp.swift; sourceTree = "<group>"; };
 		70418A0027F3BE2E00E72DF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +70,11 @@
 		70418A1B27F3BE3000E72DF8 /* Tradesy_KMM_iOS_TrialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tradesy_KMM_iOS_TrialUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		70418A2E27F4047D00E72DF8 /* releaseFramework */ = {isa = PBXFileReference; lastKnownFileType = folder; name = releaseFramework; path = ../../../android/TradesyKMMRD/shared/build/bin/iosX64/releaseFramework; sourceTree = "<group>"; };
 		70418A2F27F404C600E72DF8 /* TradesyApiFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TradesyApiFramework.framework; path = ../../../android/TradesyKMMRD/shared/build/bin/iosX64/releaseFramework/TradesyApiFramework.framework; sourceTree = "<group>"; };
+		70418A4027F4D53800E72DF8 /* TradesyApiFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TradesyApiFramework.framework; path = "../../../android/tradesy-kmm-library-trial/shared/build/bin/iosX64/releaseFramework/TradesyApiFramework.framework"; sourceTree = "<group>"; };
+		71D5801D8ACEC0C2D027BE0A /* Pods-Tradesy KMM iOS Trial-Tradesy KMM iOS TrialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tradesy KMM iOS Trial-Tradesy KMM iOS TrialUITests.debug.xcconfig"; path = "Target Support Files/Pods-Tradesy KMM iOS Trial-Tradesy KMM iOS TrialUITests/Pods-Tradesy KMM iOS Trial-Tradesy KMM iOS TrialUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B23DCA1DBA50AADBA64587CE /* Pods_Tradesy_KMM_iOS_Trial_Tradesy_KMM_iOS_TrialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tradesy_KMM_iOS_Trial_Tradesy_KMM_iOS_TrialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4F3F4B7068DBD4CEE9CAD8B /* Pods-Tradesy KMM iOS TrialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tradesy KMM iOS TrialTests.debug.xcconfig"; path = "Target Support Files/Pods-Tradesy KMM iOS TrialTests/Pods-Tradesy KMM iOS TrialTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA559E5CA496A0FEA39C8CCA /* Pods_Tradesy_KMM_iOS_Trial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tradesy_KMM_iOS_Trial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70418A3027F404C600E72DF8 /* TradesyApiFramework.framework in Frameworks */,
+				DC38F5EE1C557827C98B3395 /* Pods_Tradesy_KMM_iOS_Trial.framework in Frameworks */,
+				70418A4C27F4D96500E72DF8 /* TradesyApiFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9AF95DECB665103B7161B3B /* Pods_Tradesy_KMM_iOS_TrialTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5198BAC57DE22A358F4EB88 /* Pods_Tradesy_KMM_iOS_Trial_Tradesy_KMM_iOS_TrialUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +114,7 @@
 				70418A1827F3BE3000E72DF8 /* Tradesy KMM iOS TrialUITests */,
 				704189FC27F3BE2E00E72DF8 /* Products */,
 				70418A2D27F4047D00E72DF8 /* Frameworks */,
+				F63122263D8473F3242CB330 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,9 +168,26 @@
 			isa = PBXGroup;
 			children = (
 				70418A2F27F404C600E72DF8 /* TradesyApiFramework.framework */,
+				70418A4027F4D53800E72DF8 /* TradesyApiFramework.framework */,
 				70418A2E27F4047D00E72DF8 /* releaseFramework */,
+				CA559E5CA496A0FEA39C8CCA /* Pods_Tradesy_KMM_iOS_Trial.framework */,
+				B23DCA1DBA50AADBA64587CE /* Pods_Tradesy_KMM_iOS_Trial_Tradesy_KMM_iOS_TrialUITests.framework */,
+				19389026A136E4183F1C2C00 /* Pods_Tradesy_KMM_iOS_TrialTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F63122263D8473F3242CB330 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CE1BB869255CD46B6F15990 /* Pods-Tradesy KMM iOS Trial.debug.xcconfig */,
+				271CDED952910C9653D7CEA4 /* Pods-Tradesy KMM iOS Trial.release.xcconfig */,
+				71D5801D8ACEC0C2D027BE0A /* Pods-Tradesy KMM iOS Trial-Tradesy KMM iOS TrialUITests.debug.xcconfig */,
+				0E8598152E9FE5370F2BDC31 /* Pods-Tradesy KMM iOS Trial-Tradesy KMM iOS TrialUITests.release.xcconfig */,
+				B4F3F4B7068DBD4CEE9CAD8B /* Pods-Tradesy KMM iOS TrialTests.debug.xcconfig */,
+				5B92D1CC1287C6993845A0D3 /* Pods-Tradesy KMM iOS TrialTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,10 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70418A1F27F3BE3000E72DF8 /* Build configuration list for PBXNativeTarget "Tradesy KMM iOS Trial" */;
 			buildPhases = (
+				DAE052CFFBC80FF5F30FB725 /* [CP] Check Pods Manifest.lock */,
 				704189F727F3BE2E00E72DF8 /* Sources */,
 				704189F827F3BE2E00E72DF8 /* Frameworks */,
 				704189F927F3BE2E00E72DF8 /* Resources */,
-				70418A3227F404C600E72DF8 /* Embed Frameworks */,
+				70418A4E27F4D96600E72DF8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -181,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70418A2227F3BE3000E72DF8 /* Build configuration list for PBXNativeTarget "Tradesy KMM iOS TrialTests" */;
 			buildPhases = (
+				1C5E2C66A005695FF1DB2B65 /* [CP] Check Pods Manifest.lock */,
 				70418A0727F3BE3000E72DF8 /* Sources */,
 				70418A0827F3BE3000E72DF8 /* Frameworks */,
 				70418A0927F3BE3000E72DF8 /* Resources */,
@@ -199,6 +235,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70418A2527F3BE3000E72DF8 /* Build configuration list for PBXNativeTarget "Tradesy KMM iOS TrialUITests" */;
 			buildPhases = (
+				8106A6E9D0FB4FBA5F8BF247 /* [CP] Check Pods Manifest.lock */,
 				70418A1127F3BE3000E72DF8 /* Sources */,
 				70418A1227F3BE3000E72DF8 /* Frameworks */,
 				70418A1327F3BE3000E72DF8 /* Resources */,
@@ -281,6 +318,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C5E2C66A005695FF1DB2B65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tradesy KMM iOS TrialTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8106A6E9D0FB4FBA5F8BF247 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tradesy KMM iOS Trial-Tradesy KMM iOS TrialUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAE052CFFBC80FF5F30FB725 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tradesy KMM iOS Trial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		704189F727F3BE2E00E72DF8 /* Sources */ = {
@@ -441,6 +547,7 @@
 		};
 		70418A2027F3BE3000E72DF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CE1BB869255CD46B6F15990 /* Pods-Tradesy KMM iOS Trial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -448,7 +555,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Tradesy KMM iOS Trial/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				FRAMEWORK_SEARCH_PATHS = ../../../android/TradesyKMMRD/shared/build/bin/iosX64/releaseFramework;
+				FRAMEWORK_SEARCH_PATHS = "../../../android/tradesy-kmm-library-trial/shared/build/bin/iosX64/releaseFramework";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -470,6 +577,7 @@
 		};
 		70418A2127F3BE3000E72DF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 271CDED952910C9653D7CEA4 /* Pods-Tradesy KMM iOS Trial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -477,7 +585,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Tradesy KMM iOS Trial/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				FRAMEWORK_SEARCH_PATHS = ../../../android/TradesyKMMRD/shared/build/bin/iosX64/releaseFramework;
+				FRAMEWORK_SEARCH_PATHS = "../../../android/tradesy-kmm-library-trial/shared/build/bin/iosX64/releaseFramework";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -499,6 +607,7 @@
 		};
 		70418A2327F3BE3000E72DF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4F3F4B7068DBD4CEE9CAD8B /* Pods-Tradesy KMM iOS TrialTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -518,6 +627,7 @@
 		};
 		70418A2427F3BE3000E72DF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B92D1CC1287C6993845A0D3 /* Pods-Tradesy KMM iOS TrialTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -537,6 +647,7 @@
 		};
 		70418A2627F3BE3000E72DF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71D5801D8ACEC0C2D027BE0A /* Pods-Tradesy KMM iOS Trial-Tradesy KMM iOS TrialUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -554,6 +665,7 @@
 		};
 		70418A2727F3BE3000E72DF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E8598152E9FE5370F2BDC31 /* Pods-Tradesy KMM iOS Trial-Tradesy KMM iOS TrialUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
